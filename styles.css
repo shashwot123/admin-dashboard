@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: beige;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+.right {
+	display: grid;
+	grid-template-rows: 1fr 5fr;
+}
+.left {
+	background-color: grey;
+}
+.right-top {
+	display: grid;
+	grid-template-rows: 1fr 4fr;
+}
+.right-bottom {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background-color: darkkhaki;
+}
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.announcements {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}

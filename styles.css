@@ -10,6 +10,11 @@ html {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
 }
+i {
+	color: yellow;
+	margin-right: 0.5rem;
+	padding-bottom: 0.2rem;
+}
 
 /*------------------Left Grid -- Left Dashboard---------------------*/
 .left {

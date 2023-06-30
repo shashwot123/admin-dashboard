@@ -15,6 +15,10 @@ i {
 	margin-right: 0.5rem;
 	padding-bottom: 0.2rem;
 }
+a {
+	text-decoration: none;
+	color: beige;
+}
 
 /*------------------Left Grid -- Left Dashboard---------------------*/
 .left {
@@ -46,26 +50,37 @@ i {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 }
+.search-bar input {
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	width: 20rem;
+	box-shadow: 0.2rem 0.2rem 0.1rem lightslategray;
+}
 .top-nav {
 	padding: 0.5rem;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	align-items: center;
 }
 .small-logo {
 	width: 2rem;
 	height: 2rem;
-	margin: 0.5rem;
+}
+.logo {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	align-items: center;
 }
 .large-logo {
 	width: 5rem;
 	height: 5rem;
-	margin: 1rem;
 }
 button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 0.75rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem ;
   text-align: center;
   text-decoration: none;
   font-size: 16px;

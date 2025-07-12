@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.navbar {
+    background-color: chartreuse;
+}
+
+.sidebar {
+    background-color: darkgreen;
+}
+
+.projects {
+    background-color: darkgrey;
+}
+
+.announcements {
+    background-color: darkorange;
+}
+
+.trending {
+    background-color: hotpink;
+}
